@@ -1,0 +1,47 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+border: 2px solid #c9c9c9;
+border-radius: 10px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.video-item.item img {
+    max-width: 600px;
+    max-height: 550px ;
+}
+.grid{
+list-style: none;
+padding: 0;
+margin-left: 0;
+}
+.grid img {
+    max-width: 100%;
+  }
+  .iframe {
+      height:30%;
+      width:60%;
+  }
+  iframe:active {
+    outline: 3px solid orange;
+  }
+  .iframe:hover {
+   outline: 3px solid orange;
+
+}
+  .SearchBar input {
+    height: 60px;
+    width: 100px;
+}
+
+.videoPlayList{
+    height:20px;
+    width:max-content;
+
+}
+
+
+
